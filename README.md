@@ -33,8 +33,7 @@ This repository contains a simple Online Library Management System designed for 
 - Import the database using "library.sql" (available inside the zip package).
 
 ### For User
-- Open your browser and enter "http://localhost/library".
-- If the 'library' folder is inside the main 'ibrary' folder, enter "http://localhost/library/library".
+- Open your browser and enter "http://localhost/library" or "http://localhost/library/library" depending on which one works for you.
   
    **Login Details for User:**
    - Username: test@gmail.com
