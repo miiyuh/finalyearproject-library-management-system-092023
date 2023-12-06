@@ -1,10 +1,11 @@
-<h1>Final Year Project - 012021090027 - 092023</h1>
+# Final Year Project - 012021090027 - 092023
 
 # Online Library Management System (PHP)
 
-This repository contains a simple Online Library Management System designed for schools and colleges. The system is divided into two main modules:
+This repository contains a simple Library Management System designed for schools. The system is divided into two main modules:
 
 1. **Admin Features:**
+   
     - Admin dashboard
     - Add / update / delete categories
     - Add / update / delete authors
@@ -15,6 +16,7 @@ This repository contains a simple Online Library Management System designed for 
     - Change their own password
 
 2. **Students:**
+   
     - Register account and then receive a unique student ID after registration
     - View their own dashboard after logging in
     - Update their own profile
@@ -28,11 +30,13 @@ This repository contains a simple Online Library Management System designed for 
 2. Place the "library" folder inside the root directory. If you are using XAMPP, put it in C:\xampp\htdocs.
 
 ### Database Configuration
-- Open phpMyAdmin or type 'localhost/phpmyadmin' iun the url of your browser.
-- Create a database named "library."
-- Import the database using "library.sql" (available inside the zip package).
+
+- Open phpMyAdmin or type 'localhost/phpmyadmin' in the URL of your browser if you are using XAMPP.
+- Create a database named "library"
+- Import the database using "library.sql" (available inside the folder).
 
 ### For User
+
 - Open your browser and enter "http://localhost/library" or "http://localhost/library/library" depending on which one works for you.
   
    **Login Details for User:**
@@ -40,6 +44,7 @@ This repository contains a simple Online Library Management System designed for 
    - Password: Test@123
 
 ### For Admin Panel
+
 - Open your browser and enter "http://localhost/library/admin" or "http://localhost/library/library/admin" depending on which one works for you.
 
    **Login Details for Admin:**
