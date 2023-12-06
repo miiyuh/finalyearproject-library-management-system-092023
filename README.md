@@ -1,6 +1,6 @@
 # Final Year Project - 012021090027 - 092023
 
-# Online Library Management System (PHP)
+# Sumeru Library Management System (PHP)
 
 This repository contains a simple Library Management System designed for schools. The system is divided into two main modules:
 
