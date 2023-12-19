@@ -1,6 +1,6 @@
 # Final Year Project - 012021090027 - 092023
 
-# Sumeru Library Management System (PHP)
+Library Management System
 
 This repository contains a simple Library Management System designed for schools. The system is divided into two main modules:
 
@@ -26,18 +26,18 @@ This repository contains a simple Library Management System designed for schools
 
 ## How to run the project
 
-1. Download and unzip the file on your local system, copy the "library" folder.
-2. Place the "library" folder inside the root directory. If you are using XAMPP, put it in C:\xampp\htdocs.
+1. Download and unzip the file on your local system, copy the "library_v0" folder.
+2. Place the "library_v0" folder inside the root directory. If you are using XAMPP, put it in C:\xampp\htdocs.
 
 ### Database Configuration
 
 - Open phpMyAdmin or type 'localhost/phpmyadmin' in the URL of your browser if you are using XAMPP.
-- Create a database named "library"
-- Import the database using "library.sql" (available inside the folder).
+- Create a database named "library_v0"
+- Import the database using "library_v0.sql" (available inside the folder).
 
 ### For User
 
-- Open your browser and enter "http://localhost/library" or "http://localhost/library/library" depending on which one works for you.
+- Open your browser and enter "http://localhost/library_v0" or "http://localhost/library_v0/library" depending on which one works for you.
   
    **Login Details for User:**
    - Username: test@gmail.com
@@ -45,7 +45,7 @@ This repository contains a simple Library Management System designed for schools
 
 ### For Admin Panel
 
-- Open your browser and enter "http://localhost/library/admin" or "http://localhost/library/library/admin" depending on which one works for you.
+- Open your browser and enter "http://localhost/library_v0/admin" or "http://localhost/library_v0/library/admin" depending on which one works for you.
 
    **Login Details for Admin:**
    - Username: admin
