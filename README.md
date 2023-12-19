@@ -49,6 +49,6 @@ This repository contains a simple Library Management System designed for schools
 
    **Login Details for Admin:**
    - Username: admin
-   - Password: admin@123
+   - Password: Test@123
 
 The features of this library management system are clearly laid out for administrators and students alike. Follow the given guidelines to ensure a smooth setup and usage experience.
