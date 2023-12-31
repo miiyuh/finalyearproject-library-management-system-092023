@@ -4,7 +4,7 @@ error_reporting(0);
 include('includes/config.php');
 
 if (isset($_POST['change'])) {
-    $recaptcha_secret_key = '6Lco5yUpAAAAAOcRdBB2VmG6k_CEEV216JeA2zln';
+    $recaptcha_secret_key = 'YOUR_RECAPTCHA_SECRET_KEY';
     $recaptcha_response = $_POST['g-recaptcha-response'];
 
     // Verify reCAPTCHA response
@@ -134,7 +134,7 @@ if (isset($_POST['change'])) {
                                         autocomplete="off" />
                                 </div>
 
-                                <div class="g-recaptcha" data-sitekey="6Lco5yUpAAAAAHhIP3L652PN_WlyLcnB7Qpaz4w_"
+                                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"
                                     style="margin-bottom: 15px;"></div>
 
                                 <button type="submit" name="change" class="btn btn-info">Change Password</button> |
