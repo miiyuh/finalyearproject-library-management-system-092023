@@ -12,7 +12,7 @@ if(strlen($_SESSION['login']) == 0) {
         $email = $_SESSION['login'];
 
         // Verify reCAPTCHA
-        $recaptcha_secret = '6Lco5yUpAAAAAOcRdBB2VmG6k_CEEV216JeA2zln'; // Replace with your reCAPTCHA secret key
+        $recaptcha_secret = 'YOUR_RECAPTCHA_SECRET_KEY'; // Replace with your reCAPTCHA secret key
         $recaptcha_response = $_POST['g-recaptcha-response'];
 
         $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -146,7 +146,7 @@ if(strlen($_SESSION['login']) == 0) {
                                     <input class="form-control"  type="password" name="confirmpassword" autocomplete="off" required  />
                                 </div>
                                 <!-- reCAPTCHA -->
-                                <div class="g-recaptcha" data-sitekey="6Lco5yUpAAAAAHhIP3L652PN_WlyLcnB7Qpaz4w_" style="margin-bottom: 15px;"></div>
+                                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY" style="margin-bottom: 15px;"></div>
                                 <button type="submit" name="change" class="btn btn-info">Change </button> 
                             </form>
                         </div>
