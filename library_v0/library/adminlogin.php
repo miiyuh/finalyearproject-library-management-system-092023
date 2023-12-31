@@ -8,7 +8,7 @@ if ($_SESSION['alogin'] !== '') {
 }
 
 if (isset($_POST['login'])) {
-    $recaptcha_secret_key = '6Lco5yUpAAAAAOcRdBB2VmG6k_CEEV216JeA2zln'; // Replace with your actual reCAPTCHA secret key
+    $recaptcha_secret_key = 'YOUR_RECAPTCHA_SECRET_KEY'; // Replace with your actual reCAPTCHA secret key
     $recaptcha_response = $_POST['g-recaptcha-response'];
 
     // Verify reCAPTCHA response
@@ -103,7 +103,7 @@ if (isset($_POST['login'])) {
                                     <label>Password</label>
                                     <input class="form-control" type="password" name="password" autocomplete="off" required />
                                 </div>
-                                <div class="g-recaptcha" data-sitekey="6Lco5yUpAAAAAHhIP3L652PN_WlyLcnB7Qpaz4w_" style="margin-bottom: 15px;"></div>
+                                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY" style="margin-bottom: 15px;"></div>
                                 <button type="submit" name="login" class="btn btn-info">LOGIN</button>
                             </form>
                         </div>
