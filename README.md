@@ -51,4 +51,23 @@ This repository contains a simple Library Management System designed for schools
    - Username: admin
    - Password: Test@123
 
+### Update reCAPTCHA Keys
+
+For enhanced security, it is recommended that you update both the reCAPTCHA secret keys and site keys in the following PHP files to use your own keys:
+
+- **adminlogin.php, change-password.php, login-form.php, user-forgot-password.php:**
+   1. Locate the reCAPTCHA integration section in each file.
+   2. Update the `data-sitekey` attribute with your reCAPTCHA site key.
+   3. Update the `data-secretkey` attribute with your reCAPTCHA secret key.
+
+#### How to Obtain reCAPTCHA Keys:
+
+1. Visit the [reCAPTCHA website](https://www.google.com/recaptcha) and log in or create an account if you don't have one.
+2. Create a new site by selecting "reCAPTCHA v2" and then "I'm not a robot" Checkbox.
+3. Choose the "invisible" reCAPTCHA type if preferred.
+4. Complete the necessary settings and obtain your site key and secret key.
+5. Replace the placeholder keys in the mentioned PHP files with your newly acquired reCAPTCHA keys.
+
+Ensure that you follow these steps to maintain the security of your Library Management System. If you encounter any issues, refer to the reCAPTCHA documentation for assistance.
+
 The features of this library management system are clearly laid out for administrators and students alike. Follow the given guidelines to ensure a smooth setup and usage experience.
