@@ -10,7 +10,7 @@ if ($_SESSION['login'] != '') {
 if (isset($_POST['login'])) {
     $email = $_POST['emailid'];
     $password = md5($_POST['password']);
-    $recaptcha_secret = '6Lco5yUpAAAAAOcRdBB2VmG6k_CEEV216JeA2zln'; // Replace with your secret key
+    $recaptcha_secret = 'YOUR_RECAPTCHA_SECRET_KEY'; // Replace with your secret key
     $recaptcha_response = $_POST['g-recaptcha-response'];
 
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -121,7 +121,7 @@ if (isset($_POST['login'])) {
                                     <p class="help-block"><a href="user-forgot-password.php">Forgot Password</a></p>
                                 </div>
                                 <!-- reCAPTCHA -->
-                                <div class="g-recaptcha" data-sitekey="6Lco5yUpAAAAAHhIP3L652PN_WlyLcnB7Qpaz4w_" style="margin-bottom: 15px;"></div>
+                                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY" style="margin-bottom: 15px;"></div>
 
                                 <button type="submit" name="login" class="btn btn-info">LOGIN</button> | <a href="signup.php">Register</a>
                             </form>
